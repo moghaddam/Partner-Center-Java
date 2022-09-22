@@ -25,7 +25,17 @@ public enum SubscriptionStatus
     /**
      * Subscription state: Deleted
      */
-    DELETED("deleted");
+    DELETED("deleted"),
+
+    /**
+     * Subscription state: Pending
+     */
+    PENDING("pending"),
+
+    /**
+     * Subscription state: Expired
+     */
+    EXPIRED("expired");
 
     private final String value;
 
