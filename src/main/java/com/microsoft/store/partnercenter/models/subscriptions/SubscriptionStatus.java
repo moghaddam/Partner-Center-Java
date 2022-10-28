@@ -33,6 +33,11 @@ public enum SubscriptionStatus
     PENDING("pending"),
 
     /**
+     * Subscription state: Disabled
+     */
+    DISABLED("disabled"),
+
+    /**
      * Subscription state: Expired
      */
     EXPIRED("expired");
